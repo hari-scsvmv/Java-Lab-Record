@@ -3,13 +3,10 @@ class Second implements Runnable { public void run(){for(int i=1;i<=3;i++)System
 public class ThreadDemo { public static void main(String[] args){First a=new First();Thread b=new Thread(new Second());a.start();b.start();} }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
-The exact order may vary because both threads run concurrently.
+Thread scheduling may change the order.
 
-One possible output:
+One Possible Output:
 Thread A : 1
 Thread A : 2
 Thread A : 3
