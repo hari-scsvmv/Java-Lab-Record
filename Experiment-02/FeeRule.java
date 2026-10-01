@@ -6,3 +6,14 @@ public class FeeRule {
         return 40000;
     }
 }
+
+/*
+Sample Input:
+This helper class is called by FeeApp.
+Example course values: BE, ME, BSc
+
+Sample Output:
+FeeRule.fee("BE")  returns 75000.0
+FeeRule.fee("ME")  returns 60000.0
+FeeRule.fee("BSc") returns 40000.0
+*/
