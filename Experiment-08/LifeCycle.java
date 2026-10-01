@@ -7,3 +7,21 @@ public class LifeCycle extends Applet {
  public void destroy(){System.out.println("destroy()");}
  public void paint(Graphics g){System.out.println("paint()");g.drawString("Minimise and restore this window",20,30);}
 }
+
+/*
+Sample Input:
+No keyboard input required.
+Run the applet, then minimize/restore or close the applet window.
+
+Sample Console Output:
+init()
+start()
+paint()
+
+Visible Applet Output:
+Minimise and restore this window
+
+Additional output when the applet is stopped or closed:
+stop()
+destroy()
+*/
