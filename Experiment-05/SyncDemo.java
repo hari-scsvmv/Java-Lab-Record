@@ -12,3 +12,11 @@ public class SyncDemo {
         System.out.println("Final count = " + c.get());
     }
 }
+
+/*
+Sample Input:
+No user input required.
+
+Sample Output:
+Final count = 20000
+*/
