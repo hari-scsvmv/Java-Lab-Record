@@ -5,11 +5,7 @@ public class MathUtil {
 }
 
 /*
-Sample Input:
-This utility class is called by UseMath.
-Example values: 7 for square(), 3 for cube()
-
-Sample Output:
+Sample Usage:
 MathUtil.square(7) returns 49
 MathUtil.cube(3)   returns 27
 */
