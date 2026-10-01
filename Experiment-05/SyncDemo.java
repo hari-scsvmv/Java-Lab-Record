@@ -14,9 +14,6 @@ public class SyncDemo {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Final count = 20000
 */
