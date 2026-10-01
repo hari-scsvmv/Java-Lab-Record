@@ -8,3 +8,17 @@ public class WriteFile {
   } catch (IOException e) { System.out.println("Error : " + e.getMessage()); }
  }
 }
+
+/*
+Sample Input:
+No keyboard input required.
+The program writes fixed records into student.txt.
+
+Sample Output:
+File written successfully.
+
+File Created: student.txt
+101,Aravind,78
+102,Divya,91
+103,Karthik,45
+*/
