@@ -5,12 +5,8 @@ public class Student {
 }
 
 /*
-Sample Input:
-This model class is used by FeeApp.
-Example object creation: new Student("Meena", "BE")
-
-Sample Output:
-The object stores:
+Sample Usage:
+new Student("Meena", "BE") creates a student object with:
 name   = Meena
 course = BE
 */
