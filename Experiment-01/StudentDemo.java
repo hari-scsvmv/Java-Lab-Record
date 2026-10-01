@@ -13,9 +13,6 @@ public class StudentDemo {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 ROLL NAME        MARKS
 101    Aravind                    78
