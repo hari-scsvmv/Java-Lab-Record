@@ -14,9 +14,6 @@ public class MarksArray {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 78 Pass
 91 Pass
