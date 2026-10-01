@@ -3,9 +3,6 @@ class Player implements Comparable<Player>{String name;int runs;Player(String n,
 public class SortDemo {public static void main(String[] args){Player[] p={new Player("Ravi",45),new Player("Anu",92),new Player("Kiran",67)};Arrays.sort(p);System.out.println(Arrays.toString(p));}}
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 [Anu(92), Kiran(67), Ravi(45)]
 */
