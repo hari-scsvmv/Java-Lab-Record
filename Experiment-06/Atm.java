@@ -14,10 +14,6 @@ public class Atm {
 }
 
 /*
-Sample Input:
-No user input required.
-The program tests withdrawal amounts: 2000, 350, 9000, 1500
-
 Sample Output:
 Dispensed 2000.0, balance 3000.0
 Refused : 350.0 is not a multiple of 100
