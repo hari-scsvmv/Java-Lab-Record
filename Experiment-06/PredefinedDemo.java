@@ -5,9 +5,6 @@ try{String s=null;System.out.println(s.length());}catch(NullPointerException e){
 System.out.println("Program continued normally.");}}
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Array error : index Index 5 out of bounds for length 3
 Math error : / by zero
