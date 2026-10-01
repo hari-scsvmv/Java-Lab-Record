@@ -9,19 +9,15 @@ public class LifeCycle extends Applet {
 }
 
 /*
-Sample Input:
-No keyboard input required.
-Run the applet, then minimize/restore or close the applet window.
-
 Sample Console Output:
 init()
 start()
 paint()
 
-Visible Applet Output:
+Visible Output:
 Minimise and restore this window
 
-Additional output when the applet is stopped or closed:
-stop()
-destroy()
+Note:
+stop() runs when the applet is stopped.
+destroy() runs when the applet is destroyed.
 */
