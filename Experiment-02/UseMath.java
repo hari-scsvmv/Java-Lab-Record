@@ -7,9 +7,6 @@ public class UseMath {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Square of 7 = 49
 Cube   of 3 = 27
