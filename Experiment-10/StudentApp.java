@@ -19,3 +19,16 @@ public class StudentApp {
         run("SELECT * FROM student WHERE reg_no = ?",reg);
     }
 }
+
+/*
+Sample Input:
+101
+
+Sample Output:
+Register number to search : 101 Aravind 78
+1 row(s) affected.
+101 Aravind 95
+
+Database Change:
+The marks value for register number 101 is updated from 78 to 95.
+*/
