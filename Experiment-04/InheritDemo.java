@@ -4,9 +4,6 @@ class Manager extends Employee { String dept; Manager(String n,double s,String d
 public class InheritDemo { public static void main(String[] args){Person p=new Manager("Meena",75000,"CSE");p.show();} }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Name   : Meena
 Salary : 75000.0
