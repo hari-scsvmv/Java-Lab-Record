@@ -4,9 +4,6 @@ class Driver extends Staff { Driver(String n){super(n);} String role(){return "D
 public class RoleDemo { public static void main(String[] args){Staff[] all={new Teacher("Kumar"),new Driver("Selvam"),new Staff("Raj")};for(Staff s:all)System.out.println(s.name+" -> "+s.role());} }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Kumar -> Teacher
 Selvam -> Driver
