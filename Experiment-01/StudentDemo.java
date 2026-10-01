@@ -11,3 +11,13 @@ public class StudentDemo {
         System.out.println("ROLL NAME        MARKS"); s1.show(); s2.show();
     }
 }
+
+/*
+Sample Input:
+No user input required.
+
+Sample Output:
+ROLL NAME        MARKS
+101    Aravind                    78
+102    Divya                    91
+*/
