@@ -16,3 +16,15 @@ public class MessBill {
         System.out.printf("Total collection = Rs. %.2f%n", total);
     }
 }
+
+/*
+Sample Input:
+No user input required.
+
+Sample Output:
+NAME       DAYS     BILL
+Aravind      28  2380.00
+Divya        30  2550.00
+Karthik      25  2125.00
+Total collection = Rs. 7055.00
+*/
