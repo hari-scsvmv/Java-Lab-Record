@@ -10,14 +10,10 @@ public class WriteFile {
 }
 
 /*
-Sample Input:
-No keyboard input required.
-The program writes fixed records into student.txt.
-
 Sample Output:
 File written successfully.
 
-File Created: student.txt
+Generated File: student.txt
 101,Aravind,78
 102,Divya,91
 103,Karthik,45
