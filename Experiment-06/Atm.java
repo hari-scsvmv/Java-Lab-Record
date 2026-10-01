@@ -12,3 +12,15 @@ public class Atm {
         for(double a:tries){try{withdraw(a);}catch(Exception e){System.out.println("Refused : "+e.getMessage());}}
     }
 }
+
+/*
+Sample Input:
+No user input required.
+The program tests withdrawal amounts: 2000, 350, 9000, 1500
+
+Sample Output:
+Dispensed 2000.0, balance 3000.0
+Refused : 350.0 is not a multiple of 100
+Refused : Balance is only 3000.0
+Dispensed 1500.0, balance 1500.0
+*/
