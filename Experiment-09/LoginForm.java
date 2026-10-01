@@ -1,3 +1,22 @@
 import javax.swing.*;
 import java.awt.*;
 public class LoginForm { public static void main(String[] args){JFrame f=new JFrame("Login");f.setLayout(new FlowLayout());JTextField user=new JTextField(12);JPasswordField pass=new JPasswordField(12);JButton ok=new JButton("Login");JLabel msg=new JLabel(" ");f.add(new JLabel("User Name"));f.add(user);f.add(new JLabel("Password "));f.add(pass);f.add(ok);f.add(msg);ok.addActionListener(e->{String pwd=new String(pass.getPassword());if(user.getText().equals("cse")&&pwd.equals("java"))msg.setText("Login successful");else msg.setText("Invalid user or password");});f.setSize(230,180);f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);f.setVisible(true);} }
+
+/*
+Sample Input:
+User Name: cse
+Password : java
+Click Login.
+
+Sample Output:
+The message label displays:
+Login successful
+
+Alternative Input:
+User Name: admin
+Password : test
+Click Login.
+
+Alternative Output:
+Invalid user or password
+*/
