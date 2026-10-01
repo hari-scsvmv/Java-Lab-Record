@@ -16,13 +16,10 @@ public class StringDemo {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Length      : 17
 Upper case : SCSVMV UNIVERSITY
-First six   : SCSVM
+First six   : SCSVMV
 Position of U: 7
 Replace S->X: XCXVMV University
 Original    : SCSVMV University
