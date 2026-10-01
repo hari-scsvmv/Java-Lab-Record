@@ -1,8 +1,8 @@
-# ☕ Java Programming Lab Record
+# Java Programming Lab Record
 
 This repository contains the Java Programming Laboratory experiments and case studies from the SCSVMV lab record.
 
-## 🧑‍🎓 Student Details
+## Student Details
 
 | Field | Details |
 |---|---|
@@ -10,7 +10,7 @@ This repository contains the Java Programming Laboratory experiments and case st
 | **GitHub Username** | hari-scsvmv |
 | **Email** | 11249a407@kanchiuniv.ac.in |
 
-## 📚 Experiments
+## Experiments
 
 | # | Experiment | Main Programs |
 |---|---|---|
@@ -27,7 +27,7 @@ This repository contains the Java Programming Laboratory experiments and case st
 
 Each experiment folder also contains the corresponding case study from the lab record.
 
-## 📁 Structure
+## Structure
 
 ```text
 Java-Lab-Record/
