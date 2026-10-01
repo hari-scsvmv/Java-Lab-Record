@@ -4,10 +4,10 @@ CREATE TABLE student (reg_no VARCHAR(10) PRIMARY KEY, name VARCHAR(40), marks IN
 INSERT INTO student VALUES ('101','Aravind',78), ('102','Divya',91);
 
 /*
-Sample Input:
+Execution:
 Run this SQL script in MySQL.
 
-Sample Output:
+Expected Result:
 Database created: scsvmv_lab
 Table created: student
 Rows inserted:
@@ -17,7 +17,7 @@ Rows inserted:
 Verification Query:
 SELECT * FROM student;
 
-Expected Result:
+Query Output:
 reg_no  name     marks
 101     Aravind  78
 102     Divya    91
