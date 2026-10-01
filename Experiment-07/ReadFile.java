@@ -9,3 +9,16 @@ public class ReadFile {
   } catch (IOException e) { System.out.println("Error : " + e.getMessage()); }
  }
 }
+
+/*
+Sample Input File: student.txt
+101,Aravind,78
+102,Divya,91
+103,Karthik,45
+
+Sample Output:
+ROLL NAME       MARKS
+101   Aravind   78
+102   Divya     91
+103   Karthik   45
+*/
