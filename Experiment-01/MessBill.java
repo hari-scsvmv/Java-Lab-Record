@@ -18,9 +18,6 @@ public class MessBill {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 NAME       DAYS     BILL
 Aravind      28  2380.00
