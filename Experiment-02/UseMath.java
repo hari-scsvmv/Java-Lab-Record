@@ -5,3 +5,12 @@ public class UseMath {
         System.out.println("Cube   of 3 = " + MathUtil.cube(3));
     }
 }
+
+/*
+Sample Input:
+No user input required.
+
+Sample Output:
+Square of 7 = 49
+Cube   of 3 = 27
+*/
