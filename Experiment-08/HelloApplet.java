@@ -6,13 +6,9 @@ public class HelloApplet extends Applet {
 }
 
 /*
-Sample Input:
-No keyboard input required.
-Run the applet using HelloApplet.html or an applet viewer.
-
-Sample Output:
-The applet window displays:
-Welcome to SCSVMV
-A red oval at position (30,45) with size 60x60.
-A green rectangle at position (110,45) with size 80x60.
+Visible Output:
+The applet window shows:
+- Text: Welcome to SCSVMV
+- A red oval
+- A green rectangle
 */
