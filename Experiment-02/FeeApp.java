@@ -14,9 +14,6 @@ public class FeeApp {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Meena    BE      75000.00
 Ravi     ME      60000.00
