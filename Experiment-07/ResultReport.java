@@ -12,7 +12,7 @@ public class ResultReport {
 }
 
 /*
-Sample Input File: student.txt
+Input File: student.txt
 101,Aravind,78
 102,Divya,91
 103,Karthik,45
@@ -20,7 +20,7 @@ Sample Input File: student.txt
 Sample Output:
 result.txt created. Passed 2, failed 1
 
-File Created: result.txt
+Generated File: result.txt
 Aravind PASS
 Divya PASS
 Karthik FAIL
