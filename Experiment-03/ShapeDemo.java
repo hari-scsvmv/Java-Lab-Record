@@ -4,9 +4,6 @@ class Rect implements Shape { double l,b; Rect(double l,double b){this.l=l;this.
 public class ShapeDemo { public static void main(String[] args){Shape[] s={new Circle(5),new Rect(4,6)};for(Shape x:s)System.out.printf("%-8s area = %.2f%n",x.getClass().getSimpleName(),x.area());} }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Circle   area = 78.54
 Rect     area = 24.00
