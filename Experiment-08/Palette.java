@@ -8,12 +8,10 @@ public class Palette extends Applet {
 }
 
 /*
-Sample Input:
-Mouse click on a color box.
-Example: click the blue box.
+User Interaction:
+Click the blue colour box.
 
-Sample Output:
-The applet displays four color boxes: red, green, blue, and yellow.
-Initially, the large rectangle is red because sel = 0.
-After clicking the blue box, the large rectangle changes to blue.
+Visible Output:
+The large preview rectangle changes to blue.
+The top row displays red, green, blue, and yellow colour boxes.
 */
