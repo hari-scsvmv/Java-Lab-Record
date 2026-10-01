@@ -2,14 +2,10 @@ class Seats { private int available=10; synchronized void book(String counter){i
 public class Booking { public static void main(String[] args){Seats s=new Seats();for(int i=1;i<=3;i++){String name="Counter-"+i;new Thread(()->{for(int j=0;j<4;j++)s.book(name);}).start();}} }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
-The exact counter order may vary because three threads run concurrently.
-There will be 10 successful bookings and 2 HOUSE FULL messages.
+Thread scheduling may change the order, but exactly 10 bookings succeed and 2 requests show HOUSE FULL.
 
-One possible output:
+One Possible Output:
 Counter-1 booked seat. Left = 9
 Counter-1 booked seat. Left = 8
 Counter-1 booked seat. Left = 7
