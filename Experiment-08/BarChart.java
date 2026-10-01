@@ -8,13 +8,11 @@ public class BarChart extends Applet {
 }
 
 /*
-Sample Input:
-Mouse click on a bar.
-Example: click the first bar.
+User Interaction:
+Click the second bar.
 
-Sample Output:
-The applet displays five bars for marks 78, 91, 45, 66, and 88.
-Initially displayed text: Click a bar
-After clicking the first bar: Subject 1 = 78
-Bars with marks >= 50 are green; the bar with mark 45 is red.
+Visible Output:
+Subject 2 = 91
+The applet displays five bars using marks 78, 91, 45, 66, and 88.
+Bars with marks >= 50 appear green; marks below 50 appear red.
 */
