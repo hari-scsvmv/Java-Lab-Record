@@ -11,7 +11,7 @@ public class ReadFile {
 }
 
 /*
-Sample Input File: student.txt
+Input File: student.txt
 101,Aravind,78
 102,Divya,91
 103,Karthik,45
