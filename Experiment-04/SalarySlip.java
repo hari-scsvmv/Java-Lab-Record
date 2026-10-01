@@ -15,9 +15,6 @@ public class SalarySlip {
 }
 
 /*
-Sample Input:
-No user input required.
-
 Sample Output:
 Meena      70000.00
 Ravi       48000.00
