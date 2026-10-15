@@ -42,5 +42,3 @@ Java-Lab-Record/
 ├── Experiment-09/
 └── Experiment-10/
 ```
-
-> **Note:** The Applet experiments are based on the supplied lab PDF. Applets require legacy Java/Applet tooling as described in the lab record.
